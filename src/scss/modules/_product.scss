@@ -1,0 +1,38 @@
+.Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+margin: 5%;
+
+  
+    h2{
+        text-transform: capitalize;
+        font-family: poppins-bo;
+        font-size: 200%;
+        
+    }
+    .ControlBtn{
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        button{
+            border: none;
+            margin: 2%;
+            text-transform: uppercase;
+            font-family: poppins-bo;
+            background-color: white;
+            
+                
+                &:hover{
+                    duration:5s;
+                    text-decoration-line: underline;
+                }  
+            
+            
+            
+
+        }
+    }
+}

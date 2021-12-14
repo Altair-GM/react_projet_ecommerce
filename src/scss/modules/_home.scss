@@ -1,0 +1,44 @@
+.HomeBanner{
+    display: flex;
+    img{
+       
+        width: 100%;
+    }
+}
+.HomeCenter{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   
+   div{
+       display: flex;
+       justify-content: center;
+       width: 90%; height: 25em;
+       align-items: flex-end;
+       
+       img{
+           width: 60%;
+           margin: 10%;
+           transition: 2s;
+           &:hover{
+               transition: 2s;
+            width: 70%;
+        }
+       }
+       
+       button{
+           position: absolute;
+           border-radius: 5px;
+           background-color:dimgray;
+           border: none;
+           box-shadow: 0px 0px 25px 10px dimgray;
+           margin: 1%;
+           text-transform: uppercase;
+           font-family: poppins-l;
+           color: white;
+           cursor: pointer;
+       }
+   }
+}
